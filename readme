@@ -1,0 +1,32 @@
+# js-biglietto-treno
+
+## traccia
+
+@here </br>
+Ciao ragazzi, </br>
+esercizio di oggi: calcolo del prezzo del biglietto del treno </br>
+cartella/repo js-biglietto-treno </br>
+Il programma dovrà chiedere all'utente il numero di chilometri che vuole percorrere e l'età del passeggero. </br>
+Sulla base di queste informazioni dovrà calcolare il prezzo totale del viaggio, secondo queste regole:
+- il prezzo del biglietto è definito in base ai km (0.21 € al km)
+- va applicato uno sconto del 20% per i minorenni
+- va applicato uno sconto del 40% per gli over 65 </br>
+
+L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
+
+## svolgimento
+
+- chiedo i km della tratta da percorrere com metodo promt()
+- chiedo l'età del passeggiero com metodo promt()
+- salvo la costante prezzo al km 0.21€
+- inizializzo la varibile prezzo del biglietto = 0 <!-- la inizializzo uguale a zero in modo da salvarla immediatamete come tipo numero intero -->
+- SE    l'età del passeggero è minore di 18
+    - calcolo il prezzo del biglietto con sconto del 20%
+- ALTRIMENTI SE l'età del passeggero è maggiore di 65
+    - calcolo il prezzo del biglietto con sconto del 40%
+- ALTRIMENTI
+    - calcolo il prezzo del biglietto
+
+- creo un elemento h1 e lo assegno ad una costante 
+- modifico il testo all'interno dell'elemento h1
+- appendo l'elemento 1 al body del mio documento html
