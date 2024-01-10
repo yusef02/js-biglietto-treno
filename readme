@@ -27,6 +27,7 @@ L'output del prezzo finale va messo fuori in forma umana (con massimo due decima
 - ALTRIMENTI
     - calcolo il prezzo del biglietto
 
+- aggiusto il prezzo del biglito con 2 cifre dopo la virgola
 - creo un elemento h1 e lo assegno ad una costante 
 - modifico il testo all'interno dell'elemento h1
 - appendo l'elemento 1 al body del mio documento html
